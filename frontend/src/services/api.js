@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create a custom axios instance
 const api = axios.create({
-  baseURL: "https://daltyo5.pythonanywhere.com/",
+  baseURL: "https://daltyo5.pythonanywhere.com",
   headers: {
     "Content-Type": "application/json",
   },
